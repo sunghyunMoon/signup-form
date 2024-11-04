@@ -7,8 +7,8 @@ const $pw = document.getElementById('pw')
 const $pwMsg = document.getElementById('pw-msg')
 const $pwCheck = document.getElementById('pw-check')
 const $pwCheckMsg = document.getElementById('pw-check-msg')
-const ID_REGEX = new RegExp('^[a-z0-9_-]{5,20}')
-const PW_REGEX = new RegExp('^[a-zA-Z0-9_-]{8,16}')
+const ID_REGEX = new RegExp('^[a-z0-9_-]{5,20}$')
+const PW_REGEX = new RegExp('^[a-zA-Z0-9_-]{8,16}$')
 
 const ERROR_MSG = {
     required: '필수 정보입니다.',
